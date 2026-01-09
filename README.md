@@ -26,7 +26,7 @@ Penguin-Translator/
 
 ------
 
-## ⚡ 核心优化技术深度解析
+## ⚡ 核心优化技术
 
 ### 1. 混合精度训练 (Mixed-Precision)
 
@@ -67,6 +67,12 @@ Penguin-Translator/
 | Ablation: No-PE         | 2,850,952           | 3.3195              | 丧失语序感，证明 PE 必要性 |
 
 ### 训练曲线对比
+
+<p align="center">
+  <img src="results/ablation_comparison.png" width="80%" title="Ablation Study Comparison">
+  <br>
+  <i>图 1: 不同 Transformer 配置下的验证集 Loss 收敛曲线对比</i>
+</p>
 
 ------
 
