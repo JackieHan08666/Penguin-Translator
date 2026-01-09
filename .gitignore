@@ -1,0 +1,10 @@
+# .gitignore
+__pycache__/
+*.pt
+*.json
+.cache/
+results/tokenizers/
+results/*/*.log
+results/*/*.csv
+# 保留对比图
+!results/ablation_comparison.png
